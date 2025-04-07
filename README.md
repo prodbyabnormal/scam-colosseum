@@ -4,6 +4,12 @@ discord.gg/colosseumevents
 
 enjoy! 
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+Originally created by [Reid](https://github.com/nihilist/scam) and modified for Manifest V3 compatibility.
+
+
 (below is the original readme.md)
 
 
