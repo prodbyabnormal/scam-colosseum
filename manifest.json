@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "manifest_version": 3,
   "description": "SoundCloud Account Manager: Quickly switch between multiple SoundCloud accounts. Colosseum edition!",
-  "homepage_url": "https://github.com/nihilist/scam",
+  "homepage_url": "https://github.com/prodbyabnormal/scam-colosseum",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
