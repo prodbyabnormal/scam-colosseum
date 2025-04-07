@@ -80,7 +80,6 @@ const injectSwitcher = () => {
     addLink.id = 'add-account';
     addLink.href = '#';
 
-
     addBtn.onclick = () => {
       forceLogout();
     };
@@ -108,9 +107,7 @@ const injectSwitcher = () => {
       link.style.overflow = 'hidden';
       link.style.verticalAlign = 'middle';
 
-
       const delBtn = document.createElement('a');
-
       delBtn.setAttribute('class', 'headerMenu__profile');
       delBtn.innerHTML = '&times;';
       delBtn.id = 'delete-account';
@@ -121,7 +118,7 @@ const injectSwitcher = () => {
       delBtn.style.verticalAlign = 'middle';
 
       delBtn.onclick = (event) => {
-        if (confirm(`Are you sure you want to remove the '${event.target.dataset.user}' account?`)) { // eslint-disable-line
+        if (confirm(`Are you sure you want to remove the '${event.target.dataset.user}' account?`)) {
           deleteSession(event.target.dataset.user);
           event.target.parentNode.parentNode.removeChild(event.target.parentNode);
         }
@@ -176,7 +173,6 @@ window.addEventListener('message', (message) => {
 }, false);
 
 const init = () => {
-  // Migrate from old user sessions format
   const sessions = localStorage.hasOwnProperty('sc-accounts') ? JSON.parse(localStorage.getItem('sc-accounts')) : {};
   Object.keys(sessions).forEach((username) => {
     if (typeof sessions[username] === 'string') sessions[username] = { cookie: sessions[username] };

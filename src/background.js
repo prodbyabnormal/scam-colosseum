@@ -17,7 +17,7 @@ emitter.addListener((request, sender, sendResponse) => {
       name: request.data.name,
       value: request.data.value,
       secure: true,
-      expirationDate: Math.floor(+new Date(+new Date() + 31536e6) / 1000), // expiry 1 year from now
+      expirationDate: Math.floor(+new Date(+new Date() + 31536e6) / 1000),
     }, (cookie) => sendResponse(cookie));
   } else if (request.method === 'removeCookie') {
     chrome.cookies.remove({
