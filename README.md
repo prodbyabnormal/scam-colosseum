@@ -1,4 +1,10 @@
 # scam
+I just modified it slightly for MV3. 
+discord.gg/colosseumevents
+
+enjoy!
+
+----------------
 [![chrome webstore](https://img.shields.io/chrome-web-store/v/pjjmnjpdamiodphjhekmbdgnbegndmkc?style=flat-square)](https://chrome.google.com/webstore/detail/pjjmnjpdamiodphjhekmbdgnbegndmkc)
 [![firefox addons](https://img.shields.io/amo/v/scam?style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/scam/)
 [![airbnb eslint style](https://img.shields.io/static/v1?label=code%20style&message=airbnb&color=success&style=flat-square)](https://github.com/airbnb/javascript)
