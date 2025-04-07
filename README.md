@@ -1,5 +1,5 @@
 # scam
-I just modified it slightly for MV3. 
+I just modified it slightly for MV3. (this is not getting updated in the future- dont ask)
 discord.gg/colosseumevents
 
 enjoy! 
