@@ -2,8 +2,15 @@
 I just modified it slightly for MV3. 
 discord.gg/colosseumevents
 
-enjoy!
+enjoy! 
 
+(below is the original readme.md)
+
+
+
+----------------
+----------------
+----------------
 ----------------
 [![chrome webstore](https://img.shields.io/chrome-web-store/v/pjjmnjpdamiodphjhekmbdgnbegndmkc?style=flat-square)](https://chrome.google.com/webstore/detail/pjjmnjpdamiodphjhekmbdgnbegndmkc)
 [![firefox addons](https://img.shields.io/amo/v/scam?style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/scam/)
